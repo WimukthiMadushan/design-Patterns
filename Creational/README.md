@@ -1,4 +1,4 @@
-What is the Singleton Pattern?
+## 01.Singleton Pattern
 
 Singleton Pattern ensures that a class has only one instance and provides a global point of access to it.
 
@@ -75,3 +75,11 @@ class Logger {
 }
 
 ```
+
+## 02.Builder Pattern
+
+The Builder pattern constructs complex objects step by step. (Step by step object creation)
+
+- Creating User Profiles
+
+  - Optional fields like address, phone, email

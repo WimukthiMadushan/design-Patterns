@@ -1,3 +1,5 @@
+package SIngelton;
+
 public class Singelton {
     private static Singelton instance;
 
