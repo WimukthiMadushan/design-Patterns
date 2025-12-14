@@ -83,3 +83,10 @@ The Builder pattern constructs complex objects step by step. (Step by step objec
 - Creating User Profiles
 
   - Optional fields like address, phone, email
+
+## 03.Factory Pattern
+
+The Factory pattern provides an interface for creating objects, but lets subclasses decide which object to create.
+
+- Payment Systems
+- Notification Systems

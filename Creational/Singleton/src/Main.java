@@ -1,4 +1,6 @@
 import Builder.Computer;
+import Factory.Payment;
+import Factory.PaymentFactory;
 import SIngelton.Singelton;
 
 public class Main {
@@ -10,5 +12,8 @@ public class Main {
                 .setRam("16GB")
                 .setStorage("1TB SSD")
                 .build();
+
+        Payment payment = PaymentFactory.getPayment("credit");
+        payment.pay();
     }
 }
